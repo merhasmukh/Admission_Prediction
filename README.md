@@ -28,22 +28,34 @@ This system predicts three key outcomes:
 
 ## 🚀 Quick Start
 
-1. **Install Dependencies**:
+### Prerequisites
+- Python 3.12+ (recommended)
+- Virtual environment (recommended for Python 3.12+)
+
+### Installation
+
+1. **Create and Activate Virtual Environment** (Python 3.12+):
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+
+2. **Install Dependencies**:
    ```bash
    pip install -r requirements.txt
    ```
 
-2. **Generate Sample Data**:
+3. **Generate Sample Data**:
    ```bash
    python data_generator.py
    ```
 
-3. **Train Models**:
+4. **Train Models**:
    ```bash
    python train_models.py
    ```
 
-4. **Run Dashboard**:
+5. **Run Dashboard**:
    ```bash
    streamlit run dashboard.py
    ```
